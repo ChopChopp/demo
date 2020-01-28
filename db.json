@@ -1,14 +1,30 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    "employeeId": 101,
+    "employeeName": "Erica Rogers",
+    "jobTitle": "CEO",
+    "employmentType": "Permanent",
+    "children": [
+      {
+        "employeeId": 102,
+        "employeeName": "Malcolm Barrett",
+        "jobTitle": "Exec. Vice President",
+        "employmentType": "Permanent",
+        "children": [
+          {
+            "employeeId": 103,
+            "employeeName": "Leah Flowers",
+            "jobTitle": "Parts Technician",
+            "employmentType": "Contract"
+          },
+          {
+            "employeeId": 104,
+            "employeeName": "Tammy Sutton",
+            "jobTitle": "Service Technician",
+            "employmentType": "Contract"
+          }
+        ]
+      }
+    ]
   }
-}
+]
